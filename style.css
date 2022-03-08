@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(bg-pattern-top.svg) no-repeat top left,url(bg-pattern-bottom.svg) no-repeat right bottom;
+  background-size: 600px 500px;
+  height: 100vh;
+  background-color: hsl(185, 75%, 39%);
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  border-radius: 10px;
+  background: url(bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: 400px;
+  background-position: top;
+  background-color: white;
+}
+.victor {
+  position: absolute;
+  left: 45%;
+  top: 34%;
+  border-radius: 50%;
+}
+h2 {
+  margin-top: 220px;
+  text-align: center;
+font-weight: 400;
+color: hsl(227, 10%, 46%);
+}
+strong{
+font-weight: 700;
+color: hsl(229, 23%, 23%);
+}
+p {
+    font-weight: 400;
+    font-size: 18px;
+  text-align: center;
+  color: hsl(227, 10%, 46%);
+}
+hr {
+  background-color:  hsl(0, 0%, 59%);
+}
+.overview {
+  padding: 1.5rem;
+}
+.overview span {
+  font-size: 18px;
+  font-weight: 700;
+  color:  hsl(229, 23%, 23%);
+}
+
+.overviews {
+  text-align: center;
+}
+.overview {
+  display: inline-block;
+}
+.overview p {
+  font-size: 18px;
+}
